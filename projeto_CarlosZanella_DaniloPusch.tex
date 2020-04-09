@@ -173,39 +173,78 @@ Este projeto visa implementar infraestrutura de rede com cabeamento estruturado 
 A implementação desse projeto deve trazer como benefícios primeiramente facilitar o gerenciamento e garantir a segurança da rede tanto para o escritório administrativo como para o armazém de insumos. Além disso deve contemplar a possibilidade de uma possível expansão futura e atender a requisitos baseados em normas técnicas, além de fornecer a performance necessária para a execução de todas as aplicações.
 
 \subsection{Organizações Envolvidas}
-Este projeto, apesar de ser real, por motivo de confidencialidade não identificaremos a organização envolvida. Todo projeto será executado por equipe própria, não envolvendo outras empresas na execução, somente na aquisição de equipamentos.
+Este projeto, apesar de ser real, por motivo de confidencialidade não identificaremos a organização envolvida. Todo projeto será executado por equipe própria, não envolvendo outras empresas na execução, somente na aquisição de equipamentos. Os perfis de funcionários envolvidos são:
+\begin{itemize}
+	\item Analista de compras: realizar cotação e compra dos equipamentos. 
+	\item Analista financeiro: responsável pela aprovação financeira e pagamentos.
+	\item Engenheiro elétrico: realiza o acompanhamento das instalações elétricas necessárias. 
+	\item Desenhista: realiza as plantas físicas e lógicas do projeto. 
+	\item Instalador: responsável por realizar a instalação dos passivos de rede conforme projeto. 
+	\item Analista de TI: acompanha e ativa a conectividade de acesso a rede da empresa. 
+	\item Empresa de telecom: instala os troncos de telefonia.  
+\end{itemize}
+
 
 \section{Estado atual}
 Como os ambientes em que o projeto será implementado são novos e acabam de ser construídos, o estado atual da rede não se aplica a essa situação. 
 
 \section{Requisitos}
-Crie uma enumeração dos requisitos do projeto.
+Provisionar uma rede cabeada projetada de alta velocidade (até 10 Gigabit). Permitir a instalação de no mínimo 2 dispositivos de rede por local de trabalho (telefone IP / micro ou Thin Client). Pontos de rede adicionais para instalação de dispositivos sem fio (Wi-Fi) e também para possível expansão posterior. 
 
 \section{Usuários e Aplicativos}
-Explique nesta seção os usuários atuais e o perfil de crescimento, se por exemplo, há estimativa na evolução da empresa no que tange a quantidade de usuários, pontos de redes, equipamentos.
- 
+Este ambiente deverá comportar uma central de distribuição da empresa. A principio a quantidade de usuários nesse setor deverá ser a que consta na relação abaixo, sem uma previsão inicial de expansão. O projeto deve permitir a instalação de equipamentos para rede sem-fio (Wi-Fi) com pontos de rede já devidamente previstos e instalados. 
+
 
 \subsection{Usuários}
-Crie uma relação da quantidade, perfil de usuários de seu projeto.
+A central de distribuição deverá contar com a seguinte equipe:
+\begin{itemize}
+	\item Auxiliares administrativos
+	\item Faturistas
+	\item Secretária
+	\item Estoquistas
+	\item Encarregado do armazém
+\end{itemize}
 
 \subsection{Aplicativos}
-Crie uma relação dos aplicativos e seus níveis críticos de uso.
+Relação dos aplicativos e seus níveis críticos de uso.
+\begin{itemize}
+	\item ERP (Uniface)
+	\item Sistema de gestão de ativos (IBM Maximo)
+	\item Sistema dos coletores
+	\item Arterisk telefonia IP
+	\item ????
+\end{itemize}
 
 
 \section{Estrutura predial existente}
-
-Explique aqui a planta física dos prédios
-Pode ser anexada, em escala ou não.
-
-Deve conter uma descrição geral, indicando a possível distância entre os pontos de rede e restrições de instalação.
+Estrutura predial existente conforme figura 1.\ref{figura1} 
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figura1}
+	\caption{Estrutura predial existente}
+	\label{figura1}
+\end{figure}
 
 \section{Planta Lógica - Elementos estruturados}
 
 \subsection{Estado atual}
-Deve ter a planta atual, se for o caso
+Planta baixa e situação atual do prédio conforme figura 2.\ref{figura2} 
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figura2}
+	\caption{Planta baixa}
+	\label{figura2}
+\end{figure}
 
 \subsection{Topologia}
-Proposta futura, proposta após implantação.
+Planta lógica conforme figura 3.\ref{figura3}  
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figura3}
+	\caption{Planta lógica}
+	\label{figura3}
+\end{figure}
+
 Deve conter o diagrama da rede. Atente-se a redundância  e ligações truncadas.
 Deve explicar todos termos e componentes utilizados nestas plantas. Por exemplo: entrance facility, work area, horizontal cabling, etc..
 
@@ -215,7 +254,13 @@ Crie esboço da configuração dos racks e brackets. Explique cada um dos compon
 \input{tab1}
 
 \subsection{Encaminhamento}
-Eletrodutos, calhas, e qualquer material em que os cabos serão alojados/alocados.
+Relação do encaminhamento e seus respectivos custos conforme figura 4.\ref{figura4}  
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figura4}
+	\caption{Encaminhamento e custos}
+	\label{figura4}
+\end{figure}
 
 \subsection{Memorial descritivo}
 
