@@ -8,23 +8,23 @@
 \contentsline {subsection}{\numberline {4.1}Usuários}{5}%
 \contentsline {subsection}{\numberline {4.2}Aplicativos}{5}%
 \contentsline {section}{\numberline {5}Estrutura predial existente}{5}%
-\contentsline {section}{\numberline {6}Planta Lógica - Elementos estruturados}{6}%
-\contentsline {subsection}{\numberline {6.1}Estado atual}{6}%
-\contentsline {subsection}{\numberline {6.2}Topologia}{6}%
-\contentsline {subsection}{\numberline {6.3}Encaminhamento}{6}%
-\contentsline {subsection}{\numberline {6.4}Memorial descritivo}{6}%
+\contentsline {section}{\numberline {6}Planta Lógica - Elementos estruturados}{5}%
+\contentsline {subsection}{\numberline {6.1}Estado atual}{5}%
+\contentsline {subsection}{\numberline {6.2}Topologia}{7}%
+\contentsline {subsection}{\numberline {6.3}Encaminhamento}{7}%
+\contentsline {subsection}{\numberline {6.4}Memorial descritivo}{8}%
 \contentsline {subsection}{\numberline {6.5}Identificação dos cabos}{8}%
 \contentsline {section}{\numberline {7}Implantação}{8}%
-\contentsline {section}{\numberline {8}Plano de certificação}{8}%
-\contentsline {section}{\numberline {9}Plano de manutenção}{8}%
+\contentsline {section}{\numberline {8}Plano de certificação}{9}%
+\contentsline {section}{\numberline {9}Plano de manutenção}{9}%
 \contentsline {subsection}{\numberline {9.1}Plano de expansão}{9}%
 \contentsline {section}{\numberline {10}Risco}{9}%
 \contentsline {section}{\numberline {11}Orçamento}{9}%
-\contentsline {section}{\numberline {12}Recomendações}{9}%
-\contentsline {section}{\numberline {13}Referências bibliográficas}{9}%
-\contentsline {section}{\numberline {14}Elementos textuais - Alguns exemplos}{9}%
+\contentsline {section}{\numberline {12}Recomendações}{10}%
+\contentsline {section}{\numberline {13}Referências bibliográficas}{10}%
+\contentsline {section}{\numberline {14}Elementos textuais - Alguns exemplos}{10}%
 \contentsline {subsection}{\numberline {14.1}Colocar elementos em itens}{10}%
 \contentsline {subsubsection}{\numberline {14.1.1}Uma subseção de terceiro nivel}{10}%
-\contentsline {subsection}{\numberline {14.2}Tabelas}{10}%
-\contentsline {subsection}{\numberline {14.3}Figuras}{10}%
-\contentsline {subsubsection}{\numberline {14.3.1}Resumo gráfico}{16}%
+\contentsline {subsection}{\numberline {14.2}Tabelas}{11}%
+\contentsline {subsection}{\numberline {14.3}Figuras}{11}%
+\contentsline {subsubsection}{\numberline {14.3.1}Resumo gráfico}{17}%

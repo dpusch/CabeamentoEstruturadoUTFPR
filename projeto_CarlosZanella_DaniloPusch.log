@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.4)  8 APR 2020 22:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.4)  10 APR 2020 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,47 +824,47 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 16
 <figura1.jpg, id=28, 1181.16281pt x 351.56343pt>
 File: figura1.jpg Graphic file (type jpg)
 <use figura1.jpg>
-Package pdftex.def Info: figura1.jpg  used on input line 223.
+Package pdftex.def Info: figura1.jpg  used on input line 226.
 (pdftex.def)             Requested size: 455.24417pt x 135.49985pt.
 <figura2.jpg, id=29, 2875.3824pt x 1946.472pt>
 File: figura2.jpg Graphic file (type jpg)
 <use figura2.jpg>
-Package pdftex.def Info: figura2.jpg  used on input line 234.
+Package pdftex.def Info: figura2.jpg  used on input line 237.
 (pdftex.def)             Requested size: 455.24417pt x 308.1451pt.
- [5 <./figura1.jpg>]
-<figura3.jpg, id=35, 2763.6048pt x 1699.7904pt>
+<figura3.jpg, id=30, 2763.6048pt x 1699.7904pt>
 File: figura3.jpg Graphic file (type jpg)
 <use figura3.jpg>
-Package pdftex.def Info: figura3.jpg  used on input line 243.
+Package pdftex.def Info: figura3.jpg  used on input line 246.
 (pdftex.def)             Requested size: 455.24417pt x 279.98645pt.
-
-(./tab1.tex
-<fig1.png, id=36, 608.2725pt x 423.5825pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 8.
-(pdftex.def)             Requested size: 121.65234pt x 84.715pt.
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 9.
-(pdftex.def)             Requested size: 121.65234pt x 84.715pt.
+ [5] [6 <./figura1.jpg> <./figura2.jpg>] (./tab1.tex
+<figura5.jpg, id=39, 226.59656pt x 74.52844pt>
+File: figura5.jpg Graphic file (type jpg)
+<use figura5.jpg>
+Package pdftex.def Info: figura5.jpg  used on input line 8.
+(pdftex.def)             Requested size: 181.27748pt x 59.62282pt.
+<figura6.jpg, id=40, 226.59656pt x 283.0575pt>
+File: figura6.jpg Graphic file (type jpg)
+<use figura6.jpg>
+Package pdftex.def Info: figura6.jpg  used on input line 9.
+(pdftex.def)             Requested size: 181.27748pt x 226.44629pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
-<figura4.jpg, id=38, 1083.29718pt x 289.83281pt>
+<figura4.jpg, id=41, 1083.29718pt x 289.83281pt>
 File: figura4.jpg Graphic file (type jpg)
 <use figura4.jpg>
-Package pdftex.def Info: figura4.jpg  used on input line 260.
+Package pdftex.def Info: figura4.jpg  used on input line 259.
 (pdftex.def)             Requested size: 455.24417pt x 121.7997pt.
- [6 <./figura2.jpg>] [7 <./figura3.jpg> <./figura4.jpg>]
-Overfull \hbox (84.47485pt too wide) in paragraph at lines 281--286
+ [7 <./figura3.jpg> <./figura4.jpg>]
+Overfull \hbox (84.47485pt too wide) in paragraph at lines 280--285
 []\OT1/cmr/m/n/12 (-20) Segue uma rela^^Xc~ao de fer-ra-men-tas: http://asana.c
 om/, https://trello.com/, http://www.ganttproject.biz/,
  []
 
-[8 <./fig1.png>] (./projeto_CarlosZanella_DaniloPusch.bbl
+[8 <./figura5.jpg> <./figura6.jpg>] [9]
+(./projeto_CarlosZanella_DaniloPusch.bbl
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -873,22 +873,23 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-) [9] (./tab2.tex)
+) [10] (./tab2.tex)
+<fig1.png, id=56, 608.2725pt x 423.5825pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 365.
+Package pdftex.def Info: fig1.png  used on input line 380.
 (pdftex.def)             Requested size: 455.24417pt x 317.02682pt.
-<fig2.png, id=54, 214.8025pt x 516.93124pt>
+<fig2.png, id=58, 214.8025pt x 516.93124pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 373.
+Package pdftex.def Info: fig2.png  used on input line 388.
 (pdftex.def)             Requested size: 214.80197pt x 516.92998pt.
-<fig3.jpg, id=55, 533.5935pt x 361.35pt>
+<fig3.jpg, id=59, 533.5935pt x 361.35pt>
 File: fig3.jpg Graphic file (type jpg)
 <use fig3.jpg>
-Package pdftex.def Info: fig3.jpg  used on input line 382.
+Package pdftex.def Info: fig3.jpg  used on input line 397.
 (pdftex.def)             Requested size: 672.24995pt x 455.24417pt.
- [10] [11] [12 <./fig2.png>] [13 <./fig3.jpg>]
+ [11] [12 <./fig1.png>] [13 <./fig2.png>] [14 <./fig3.jpg>]
 DIV calculation for typearea with good linewidth.
 
 Package typearea Warning: Very low DIV value!
@@ -913,17 +914,17 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 393.
+(typearea)              on input line 408.
 Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 393.
+(typearea)             dimensions of LaTeX on input line 408.
 File: fig3.jpg Graphic file (type jpg)
 <use fig3.jpg>
-Package pdftex.def Info: fig3.jpg  used on input line 398.
+Package pdftex.def Info: fig3.jpg  used on input line 413.
 (pdftex.def)             Requested size: 724.30971pt x 490.5pt.
 
-LaTeX Warning: Float too large for page by 23.59999pt on input line 401.
+LaTeX Warning: Float too large for page by 23.59999pt on input line 416.
 
-[14]
+[15]
 DIV calculation for typearea with good linewidth.
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 9
@@ -941,9 +942,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 406.
+(typearea)              on input line 421.
 Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 406.
+(typearea)             dimensions of LaTeX on input line 421.
 
 Package typearea Warning: Bad type area settings!
 (typearea)                The detected line width is about 146%
@@ -963,57 +964,6 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 722.5pt
 (typearea)              \topmargin      = -69.89265pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 412.
-Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 412.
-
-Package typearea Warning: Bad type area settings!
-(typearea)                The detected line width is about 146%
-(typearea)                larger than the heuristically estimated maximum
-(typearea)                limit of typographical good line width.
-(typearea)                You should e.g. decrease DIV, (increase fontsize)
-(typearea)                or change papersize.
-
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 20
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 1195.01587pt
-(typearea)              \textwidth      = 1015.76349pt
-(typearea)              DIV departure   = -146%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 722.5pt
-(typearea)              \topmargin      = -69.89265pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 413.
-Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 413.
-File: fig3.jpg Graphic file (type jpg)
-<use fig3.jpg>
-Package pdftex.def Info: fig3.jpg  used on input line 420.
-(pdftex.def)             Requested size: 1015.76349pt x 687.91199pt.
-[15]
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 15
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 478.00635pt
-(typearea)              DIV departure   = -13%
-(typearea)              \evensidemargin = -12.5192pt
-(typearea)              \oddsidemargin  = -12.5192pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 679.0pt
-(typearea)              \topmargin      = -55.80853pt
 (typearea)              \headheight     = 18.125pt
 (typearea)              \headsep        = 21.75pt
 (typearea)              \topskip        = 12.0pt
@@ -1022,6 +972,38 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              on input line 427.
 Package typearea Info: Using dirty hack to recalculate internal output
 (typearea)             dimensions of LaTeX on input line 427.
+
+Package typearea Warning: Bad type area settings!
+(typearea)                The detected line width is about 146%
+(typearea)                larger than the heuristically estimated maximum
+(typearea)                limit of typographical good line width.
+(typearea)                You should e.g. decrease DIV, (increase fontsize)
+(typearea)                or change papersize.
+
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 20
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 1195.01587pt
+(typearea)              \textwidth      = 1015.76349pt
+(typearea)              DIV departure   = -146%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 722.5pt
+(typearea)              \topmargin      = -69.89265pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 428.
+Package typearea Info: Using dirty hack to recalculate internal output
+(typearea)             dimensions of LaTeX on input line 428.
+File: fig3.jpg Graphic file (type jpg)
+<use fig3.jpg>
+Package pdftex.def Info: fig3.jpg  used on input line 435.
+(pdftex.def)             Requested size: 1015.76349pt x 687.91199pt.
+[16]
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 15
 (typearea)             BCOR = 0.0pt
@@ -1038,28 +1020,47 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 428.
+(typearea)              on input line 442.
 Package typearea Info: Using dirty hack to recalculate internal output
-(typearea)             dimensions of LaTeX on input line 428.
-<fig4.png, id=76, 1881.0275pt x 647.41875pt>
+(typearea)             dimensions of LaTeX on input line 442.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 15
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 478.00635pt
+(typearea)              DIV departure   = -13%
+(typearea)              \evensidemargin = -12.5192pt
+(typearea)              \oddsidemargin  = -12.5192pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 679.0pt
+(typearea)              \topmargin      = -55.80853pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 443.
+Package typearea Info: Using dirty hack to recalculate internal output
+(typearea)             dimensions of LaTeX on input line 443.
+<fig4.png, id=81, 1881.0275pt x 647.41875pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 441.
+Package pdftex.def Info: fig4.png  used on input line 456.
 (pdftex.def)             Requested size: 413.3394pt x 142.26462pt.
  
 AED: lastpage setting LastPage
-[16
+[17
 
 
 
 
  <./fig4.png>] (./projeto_CarlosZanella_DaniloPusch.aux) ) 
 Here is how much of TeX's memory you used:
- 12752 strings out of 480994
- 222579 string characters out of 5916033
- 743125 words of memory out of 5000000
- 27931 multiletter control sequences out of 15000+600000
- 556602 words of font info for 116 fonts, out of 8000000 for 9000
+ 12780 strings out of 480994
+ 222878 string characters out of 5916033
+ 743129 words of memory out of 5000000
+ 27949 multiletter control sequences out of 15000+600000
+ 556847 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,121p,10128b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texm
@@ -1078,11 +1079,11 @@ ts/cm/cmtt10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm10
 /texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2019/t
 exmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texlive/2019/texmf-dist/font
 s/type1/urw/helvetic/uhvro8a.pfb>
-Output written on projeto_CarlosZanella_DaniloPusch.pdf (16 pages, 10866290 byt
+Output written on projeto_CarlosZanella_DaniloPusch.pdf (17 pages, 10907076 byt
 es).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 30254 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 30264 words of extra memory for PDF output out of 35830 (max. 10000000)
 

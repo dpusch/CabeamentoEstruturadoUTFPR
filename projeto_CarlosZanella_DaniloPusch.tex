@@ -198,26 +198,29 @@ Este ambiente deverá comportar uma central de distribuição da empresa. A prin
 \subsection{Usuários}
 A central de distribuição deverá contar com a seguinte equipe:
 \begin{itemize}
-	\item Auxiliares administrativos
-	\item Faturistas
-	\item Secretária
-	\item Estoquistas
-	\item Encarregado do armazém
+	\item 6 auxiliares administrativos
+	\item 2 faturistas
+	\item 1 secretária
+	\item 4 estoquistas
+	\item 2 analistas de RH
+	\item 1 chefe de departamento
+		
 \end{itemize}
 
 \subsection{Aplicativos}
 Relação dos aplicativos e seus níveis críticos de uso.
 \begin{itemize}
-	\item ERP (Uniface)
-	\item Sistema de gestão de ativos (IBM Maximo)
-	\item Sistema dos coletores
-	\item Arterisk telefonia IP
-	\item ????
+	\item ERP (Uniface): criticidade alta. 
+	\item Sistema de gestão de ativos (IBM Maximo): criticidade média.
+	\item Sistema dos coletores: criticidade média. 
+	\item Arterisk telefonia IP: criticidade alta. 
+	\item Sistema operacional Windows: criticidade média.  
+	\item Pacote Office: criticidade média. 
 \end{itemize}
 
 
 \section{Estrutura predial existente}
-Estrutura predial existente conforme figura 1.\ref{figura1} 
+Estrutura predial existente conforme figura \ref{figura1}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figura1}
@@ -228,7 +231,7 @@ Estrutura predial existente conforme figura 1.\ref{figura1}
 \section{Planta Lógica - Elementos estruturados}
 
 \subsection{Estado atual}
-Planta baixa e situação atual do prédio conforme figura 2.\ref{figura2} 
+Planta baixa e situação atual do prédio conforme figura \ref{figura2}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figura2}
@@ -237,7 +240,7 @@ Planta baixa e situação atual do prédio conforme figura 2.\ref{figura2}
 \end{figure}
 
 \subsection{Topologia}
-Planta lógica conforme figura 3.\ref{figura3}  
+De acordo com Augusto \cite{ID1}, a topologia pode ser entendida como a maneira pela qual os enlaces de comunicação e dispositivos de comutação estão interligados, provendo efetivamente a transmissão do sinal entre nós da rede. [...] Podemos dizer que a topologia física de uma rede local compreende os enlaces físicos de ligação dos elementos computacionais da rede, enquanto a topologia lógica da rede se refere à forma através da qual o sinal é efetivamente transmitido entre um computador e outro. Planta lógica conforme figura \ref{figura3}. 
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figura3}
@@ -245,16 +248,12 @@ Planta lógica conforme figura 3.\ref{figura3}
 	\label{figura3}
 \end{figure}
 
-Deve conter o diagrama da rede. Atente-se a redundância  e ligações truncadas.
-Deve explicar todos termos e componentes utilizados nestas plantas. Por exemplo: entrance facility, work area, horizontal cabling, etc..
-
-Todos os elementos das figuras devem ser explicados. 
-Crie esboço da configuração dos racks e brackets. Explique cada um dos componentes. Você pode criar uma tabela contendo figuras dentro, ou criar uma tabela e incluí-la como imagem. Por exemplo, verifique a tabela \ref{tab1}.
+Podemos ver também os modelos de rack que serão utilizados abaixo na tabela \ref{tab1}.
 
 \input{tab1}
 
 \subsection{Encaminhamento}
-Relação do encaminhamento e seus respectivos custos conforme figura 4.\ref{figura4}  
+Relação do encaminhamento e seus respectivos custos conforme figura \ref{figura4}.  
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{figura4}
@@ -267,7 +266,7 @@ Relação do encaminhamento e seus respectivos custos conforme figura 4.\ref{fig
 Relacione todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade.
 
 \subsection{Identificação dos cabos}
-Explique como os cabos serão identificados em seu projeto. Coloque uma relação dos cabos instalados e identificados.
+A identificação dos cabos será realizada de acordo com a norma NBR 14565:2000. A relação de todos os passivos utilizados, inclusive os cabos, bem como os custos envolvidos consta no item 6.4, memorial descritivo deste documento. 
 
 \section{Implantação}
 Estabeleça um cronograma de implantação:
@@ -292,10 +291,15 @@ Quais relatórios de certificação serão (ou deveriam ser) entregues?
 
 \section{Plano de manutenção}
 
-Revisões periódicas na rede, emissão de certificados para novos pontos.
+A manutenção desta rede deverá seguir as melhores práticas e deverá ser registrada no sistema de gestão de Ativos IBM Maximo de acordo com os seguintes critérios: 
+\begin{itemize}
+	\item Manutenção Preventiva: Realizada mensalmente na Central de Distribuição pelos técnicos do setor de manutenção de informática, subordinado ao departamento de infraestrutura e suporte de TI. Será executado um plano de trabalho onde é realizada a verificação das conexões e a checagem visual do estado geral dos equipamentos, e também a execução da limpeza adequada. 
+	\item Manutenção Corretiva (interna): Realizada pelos analistas departamento de infraestrutura e suporte de TI. Consiste na solução dos problemas detectados na manutenção preventiva ou pela abertura de incidentes no sistema de Service Desk.
+	\item Manutenção Corretiva (terceiros): Realizada por empresa de suporte externa. Consiste na solução dos problemas detectados na manutenção preventiva ou corretiva não solucionados internamente ou quando envolvem garantias de equipamentos. Consiste na manutenção e/ou troca de componentes. As manutenções corretivas por terceiros são realizadas por empresas contratadas pelo departamento de compras da empresa, negociadas pelo departamento de gestão de TI e com aprovação técnica do departamento de infraestrutura e suporte de TI.
+\end{itemize}
 
 \subsection{Plano de expansão}
-Existe um plano de expansão? Quantos novos pontos poderão ser acrecidos na rede, antes de migração de equipamentos na camada 2? Se houver expansão, quais equipamentos deverão ser direcionados para as estremidades da rede? 
+A expansão da infraestrutura de tecnologia da central de distribuição deverá ser aprovada pela superintendência administrativa da empresa. Posteriormente, serão definidas as configurações de hardwares e softwares necessárias pelo departamento de infraestrutura e suporte de TI, bem como o projeto de implantação deve ser definido pelo setor de gestão de projetos, subordinado ao departamento de gestão de TI. Poderá ser executado por equipe interna do setor de manutenção de TI ou por empresa contratada. 
 
 \section{Risco}
 Enumerar e explicar os riscos do projeto.
@@ -317,6 +321,17 @@ Analisando os pressupostos de \cite{ref3} e \cite{ref4} concluimos que....
 \renewcommand\refname{} %%Referências bibliográficas}  
 \bibliographystyle{ieeetr}
 \bibliography{referencias}  
+
+
+
+
+
+
+
+
+
+
+
 
 %% ***********************************************************************
 %% === remover daqui =====================================================
