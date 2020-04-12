@@ -10,16 +10,18 @@
 							fontsize=12pt,%
 							onecolumn]{scrartcl}	 					% KOMA-article class
 
-\usepackage{lipsum}													% Package to create dummy text
-\usepackage[brazil]{babel}										% English language/hyphenation
-\usepackage[protrusion=true,expansion=true]{microtype}				% Better typography
+\usepackage{lipsum}			% Package to create dummy text
+\usepackage[brazil]{babel}	% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	% Better typography
 \usepackage{amsmath,amsfonts,amsthm}					% Math packages
-\usepackage[pdftex]{graphicx}									% Enable pdflatex
-\usepackage[svgnames]{xcolor}									% Enabling colors by their 'svgnames'
+\usepackage[pdftex]{graphicx}							% Enable pdflatex
+\usepackage[svgnames]{xcolor}			% Enabling colors by their 'svgnames'
 \usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption}	% Custom captions under/above floats
-\usepackage{epstopdf}												% Converts .eps to .pdf
-\usepackage{subfig}													% Subfigures
-\usepackage{booktabs}												% Nicer tables
+\usepackage{epstopdf}						% Converts .eps to .pdf
+\usepackage{subfig}							% Subfigures
+\usepackage{booktabs}		% Nicer tables
+\usepackage{float}
+
 \usepackage{fix-cm}													% Custom fontsizes
 \usepackage[utf8]{inputenc}
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
@@ -28,25 +30,27 @@
 	\renewcommand\tablename{Tabela}
 	\renewcommand\figurename{Figura}
 } 
- 
 
- 
+
+
 %%% Custom sectioning (sectsty package)
 \usepackage{sectsty}													% Custom sectioning (see below)
 \allsectionsfont{%															% Change font of al section commands
 	\usefont{OT1}{phv}{b}{n}%										% bch-b-n: CharterBT-Bold font
-	}
+}
 
 \sectionfont{%																% Change font of \section command
 	\usefont{OT1}{phv}{b}{n}%										% bch-b-n: CharterBT-Bold font
-	}
+}
 
 
 
 %%% Headers and footers
 \usepackage{fancyhdr}												% Needed to define custom headers/footers
-	\pagestyle{fancy}														% Enabling the custom headers/footers
-\usepackage{lastpage}	
+\pagestyle{fancy}														% Enabling the custom headers/footers
+\usepackage{lastpage}
+\usepackage{enumitem}
+\setlist{nosep}	
 
 % Header (empty)
 \lhead{}
@@ -60,7 +64,7 @@
 %% ====================================
 %% ====================================
 
-\lfoot{\footnotesize \texttt{Cabeamento estruturado} \textbullet ~Modelo de projeto}
+\lfoot{\footnotesize \texttt{Cabeamento estruturado} \textbullet ~Projeto}
 
 
 \cfoot{}
@@ -173,7 +177,7 @@ Este projeto visa implementar infraestrutura de rede com cabeamento estruturado 
 A implementação desse projeto deve trazer como benefícios primeiramente facilitar o gerenciamento e garantir a segurança da rede tanto para o escritório administrativo como para o armazém de insumos. Além disso deve contemplar a possibilidade de uma possível expansão futura e atender a requisitos baseados em normas técnicas, além de fornecer a performance necessária para a execução de todas as aplicações.
 
 \subsection{Organizações Envolvidas}
-Este projeto, apesar de ser real, por motivo de confidencialidade não identificaremos a organização envolvida. Todo projeto será executado por equipe própria, não envolvendo outras empresas na execução, somente na aquisição de equipamentos. Os perfis de funcionários envolvidos são:
+Este projeto, apesar de ser real, por motivo de confidencialidade não identificaremos a organização envolvida. Todo projeto será executado por equipe própria, não envolvendo outras empresas na execução, exceto na aquisição de equipamentos e instalação dos troncos de telefonia. Os perfis de funcionários envolvidos são:
 \begin{itemize}
 	\item Analista de compras: realizar cotação e compra dos equipamentos. 
 	\item Analista financeiro: responsável pela aprovação financeira e pagamentos.
@@ -197,19 +201,23 @@ Este ambiente deverá comportar uma central de distribuição da empresa. A prin
 
 \subsection{Usuários}
 A central de distribuição deverá contar com a seguinte equipe:
+\\
 \begin{itemize}
-	\item 6 auxiliares administrativos
-	\item 2 faturistas
-	\item 1 secretária
-	\item 4 estoquistas
-	\item 2 analistas de RH
-	\item 1 chefe de departamento
+
+	\item 6 auxiliares administrativos;
+	\item 2 faturistas;
+	\item 1 secretária;
+	\item 4 estoquistas;
+	\item 2 analistas de RH;
+	\item 1 chefe de departamento.
 		
 \end{itemize}
 
 \subsection{Aplicativos}
 Relação dos aplicativos e seus níveis críticos de uso.
+\\
 \begin{itemize}
+
 	\item ERP (Uniface): criticidade alta. 
 	\item Sistema de gestão de ativos (IBM Maximo): criticidade média.
 	\item Sistema dos coletores: criticidade média. 
@@ -221,55 +229,151 @@ Relação dos aplicativos e seus níveis críticos de uso.
 
 \section{Estrutura predial existente}
 Estrutura predial existente conforme figura \ref{figura1}. 
+
+%INTERVENÇÃO - DBARROS # 
+
+\subsection{Topologia}
+De acordo com Augusto \cite{ID1}, a topologia pode ser entendida como a maneira pela qual os enlaces de comunicação e dispositivos de comutação estão interligados, provendo efetivamente a transmissão do sinal entre nós da rede. [...] Podemos dizer que a topologia física de uma rede local compreende os enlaces físicos de ligação dos elementos computacionais da rede, enquanto a topologia lógica da rede se refere à forma através da qual o sinal é efetivamente transmitido entre um computador e outro. Respectivamente, temos a planta baixa conforme figura \ref{figura2}, a planta lógica conforme a figura \ref{figura3}.
+
+
+
+%inicio dos comandos para criar uma nova pagina A3 horizontal
+\clearpage
+\thispagestyle{plain}
+\KOMAoptions{paper=a3, paper=landscape, DIV=20}
+
+\recalctypearea
+%\subsection{Planta Física Cabeada}
+
 \begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{figura1}
-	\caption{Estrutura predial existente}
+	%	\centering
+	\noindent\makebox[\textwidth][c]{
+		\includegraphics[width=\textwidth]{figura1}
+	}
+	\caption{Estrutura predial existente - Formato A3.}
 	\label{figura1}
 \end{figure}
 
-\section{Planta Lógica - Elementos estruturados}
+%Retornar ao formato A4
+\clearpage
+\KOMAoptions{paper=a4, paper=portrait, DIV=15}
+\recalctypearea
+%-- reinicio em A4 
 
-\subsection{Estado atual}
-Planta baixa e situação atual do prédio conforme figura \ref{figura2}. 
+
+
+%%%%%%%%%%%%%%%%%%%%% ANTIGO %%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}
+	%\centering
+	%\includegraphics[width=\textwidth]{figura1}
+	%\caption{Estrutura predial existente}
+	%\label{figura1}
+%\end{figure}
+
+
+
+
+%INTERVENÇÃO - DBARROS # 2
+
+%inicio dos comandos para criar uma nova pagina A3 horizontal
+\clearpage
+\thispagestyle{plain}
+\KOMAoptions{paper=a3, paper=landscape, DIV=20}
+
+\recalctypearea
+%\subsection{Planta Física Cabeada}
+
 \begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{figura2}
-	\caption{Planta baixa}
+	%	\centering
+	\noindent\makebox[\textwidth][c]{
+		\includegraphics[width=\textwidth]{figura2}
+	}
+	\caption{Planta Baixa - Formato A3.}
 	\label{figura2}
 \end{figure}
 
-\subsection{Topologia}
-De acordo com Augusto \cite{ID1}, a topologia pode ser entendida como a maneira pela qual os enlaces de comunicação e dispositivos de comutação estão interligados, provendo efetivamente a transmissão do sinal entre nós da rede. [...] Podemos dizer que a topologia física de uma rede local compreende os enlaces físicos de ligação dos elementos computacionais da rede, enquanto a topologia lógica da rede se refere à forma através da qual o sinal é efetivamente transmitido entre um computador e outro. Planta lógica conforme figura \ref{figura3}. 
+%Retornar ao formato A4
+\clearpage
+\KOMAoptions{paper=a4, paper=portrait, DIV=15}
+\recalctypearea
+%-- reinicio em A4 
+
+
+
+%%%%%%%%%%%%%%%%%%%%% ANTIGO %%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Planta Lógica - Elementos estruturados}
+
+%\subsection{Estado atual}
+%Planta baixa e situação atual do prédio conforme figura \ref{figura2}. 
+%\begin{figure}
+	%\centering
+	%\includegraphics[width=\textwidth]{figura2}
+	%\caption{Planta baixa}
+	%\label{figura2}
+%\end{figure}
+
+
+
+
+%INTERVENÇÃO - DBARROS # 3
+
+%inicio dos comandos para criar uma nova pagina A3 horizontal
+\clearpage
+\thispagestyle{plain}
+\KOMAoptions{paper=a3, paper=landscape, DIV=20}
+
+\recalctypearea
+%\subsection{Planta Física Cabeada}
+
 \begin{figure}
-	\centering
-	\includegraphics[width=\textwidth]{figura3}
-	\caption{Planta lógica}
+	%	\centering
+	\noindent\makebox[\textwidth][c]{
+		\includegraphics[width=\textwidth]{figura3}
+	}
+	\caption{Planta Lógica - Formato A3.}
 	\label{figura3}
 \end{figure}
+
+%Retornar ao formato A4
+\clearpage
+\KOMAoptions{paper=a4, paper=portrait, DIV=15}
+\recalctypearea
+%-- reinicio em A4 
+
+
+%%%%%%%%%%%%%%%%%%%%% ANTIGO %%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{figure}
+%\centering
+%\includegraphics[width=\textwidth]{figura3}
+%\caption{Planta lógica}
+%\label{figura3}
+%\end{figure}
+
 
 Podemos ver também os modelos de rack que serão utilizados abaixo na tabela \ref{tab1}.
 
 \input{tab1}
 
 \subsection{Encaminhamento}
+
 Relação do encaminhamento e seus respectivos custos conforme figura \ref{figura4}.  
-\begin{figure}
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{figura4}
 	\caption{Encaminhamento e custos}
 	\label{figura4}
 \end{figure}
 
+ 
 \subsection{Memorial descritivo}
 
-Relacione todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade.
+Relação todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade e custos.
 
 \subsection{Identificação dos cabos}
 A identificação dos cabos será realizada de acordo com a norma NBR 14565:2000. A relação de todos os passivos utilizados, inclusive os cabos, bem como os custos envolvidos consta no item 6.4, memorial descritivo deste documento. 
 
 \section{Implantação}
-Estabeleça um cronograma de implantação:
+Cronograma de implantação:
 Remoção de equipamentos existentes (destino para descarte), instalação dos condutores, instalação dos cabos, 
 identificação dos cabos, montagem dos racks, certificação, etc... Crie atividades e estabeleça o tempo de execução. Se for um projeto real, indique também quais os responsáveis pela execução do projeto e de cada uma das etapas.
 
@@ -284,10 +388,36 @@ http://www.ganttproject.biz/,
 http://www.orangescrum.org/. 
 
 \section{Plano de certificação}
-Quais seriam as etapas para a certificação? 
-Quais os locais e horários para execução da certificação na rede? Toda rede será certificada?
-Como os testes seriam executados?
-Quais relatórios de certificação serão (ou deveriam ser) entregues? 
+
+A certificação da rede será realizada por empresa terceirizada a ser contratada após sua conclusão física, antes da entrega para uso, em todos os pontos de redes. Será exigido apenas os testes passivos da rede, conhecidos também como testes de campo. Para a rede de pares metálicos, baseado na documentação técnica dos fabricantes,  será exigido os seguintes testes:
+\begin{itemize}	
+	\item Wiremap;
+	\item Lenght;
+	\item Attenuation ou Insertion Loss;
+	\item NEXT loss (Near and Crosstalk);
+	\item OS-NEXT Loss (Power Sum NEXT);
+	\item FEXT (Far End Crosstalk);
+	\item ELFEXT Loss (Power Sum Equal Far End Crosstalk);
+	\item Return Loss;
+	\item Propagation Delay;
+	\item Delay Skew ou Propagation Delay Skew;
+	\item ACR (Atenuation to Crosstalk Ratio);
+	\item PS-ACR (Power Sum Attenuation to Crosstalk Ratio);
+	\item Alien Crosstalk;
+	\item Insertion Loss Deviation;
+	\item DCLoop Resistance;	
+\end{itemize}
+
+Para a rede de fibra óptica, baseado nas especificações técnica do fabricante, será exigido os seguintes testes:
+\begin{itemize}	
+	\item Atenuação (Attenuation or Insertion Loss);
+	\item Atenuação por retroespelhamento;
+	\item Atenuação de inserção;
+	\item Teste de comprimento;
+\end{itemize}
+
+A empresa contratada deverá fornecer os relatórios de todos testes realizados e um parecer técnico da viabilidade da rede para atender a demanda solicitada, que neste caso seria uma rede de alta velocidade no padrão 10GBASE-T.
+
 
 \section{Plano de manutenção}
 
@@ -299,10 +429,31 @@ A manutenção desta rede deverá seguir as melhores práticas e deverá ser reg
 \end{itemize}
 
 \subsection{Plano de expansão}
+
 A expansão da infraestrutura de tecnologia da central de distribuição deverá ser aprovada pela superintendência administrativa da empresa. Posteriormente, serão definidas as configurações de hardwares e softwares necessárias pelo departamento de infraestrutura e suporte de TI, bem como o projeto de implantação deve ser definido pelo setor de gestão de projetos, subordinado ao departamento de gestão de TI. Poderá ser executado por equipe interna do setor de manutenção de TI ou por empresa contratada. 
 
 \section{Risco}
-Enumerar e explicar os riscos do projeto.
+De acordo com Beal \cite{ID2}, uma das grandes vulnerabilidades de segurança encontradas nas organizações são as pessoas que nelas atuam. O abuso de privilégios de acesso a dados ou instalações podem comprometer a segurança. A necessidade de contratação de serviços de terceiros como prestadores de serviço, fornecedores e consultores pode representar sérias ameaças à segurança da informação, caso não sejam auditadas.
+A avaliação dos riscos visa comparar dados coletados anteriormente na análise de riscos com os critérios de risco, considerando a tolerância da organização perante os mesmos. Caso haja necessidade, uma análise mais aprofundada do risco deverá ser empregada a norma (ABNT NBR ISO/IEC 31000:2009). Ainda segundo Beal \cite{ID2}, a avaliação dos riscos deverá ser efetuada por pessoas qualificadas, que possuam características como:
+\begin{itemize}	
+	\item Conhecimento dos ativos e sua importância para a organização; 
+	\item Formação técnica na área a ser avaliada;
+	\item Experiência e conhecimento das práticas, procedimentos e princípios de segurança da informação;
+	\item Conhecimento da metodologia e das ferramentas a serem utilizadas na avaliação de riscos. 
+\end{itemize}
+
+Tendo isso em vista, o projeto de avaliação de riscos deve ser elaborado por área competente e levar em consideração esses itens que não compreendem exatamente competência da área técnica:
+\begin{itemize}	
+	\item Atraso na entrega do prédio; 
+	\item Atraso na entrega da instalação elétrica;
+	\item Atraso na instalação do encaminhamento e do cabeamento; 
+	\item Atraso na instalação dos racks e no break; 
+	\item Atraso na instalação dos links de fibra ótica pelas operadoras; 
+	\item Entre outros riscos técnicos avaliados pela área competente. 
+	
+\end{itemize}
+
+
 
 \section{Orçamento}
 Crie uma relação de orçamentos baseado na seções anteriores.
@@ -390,57 +541,58 @@ Não se preocupe o local em que a figura será renderizada em seu texto. Preocup
 	\label{fig2}
 \end{figure}
 
-Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90. Repare que a escala da figura foi modificada pelo parametro height. Você também pode utilizar scale
+%Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90. Repare que a escala %da figura foi modificada pelo parametro height. Você também pode utilizar scale
 
-\begin{figure}
-	\centering
-	\includegraphics[height=\textwidth,angle=-90]{fig3}
-	\caption{Exemplo de figura rotacionada}
-	\label{fig3}
-\end{figure}
+%\begin{figure}
+	%\centering
+	%\includegraphics[height=\textwidth,angle=-90]{fig3}
+	%\caption{Exemplo de figura rotacionada}
+	%\label{fig3}
+%\end{figure}
 
-Você também pode inserir páginas de outro tamanho em seu texto. Isto irá ajudar a inserir imagens maiores, como as desenvolvidas em CAD. Segue um exemplo na figura \ref{fig4} e figura \ref{fig5}.
+%Você também pode inserir páginas de outro tamanho em seu texto. Isto irá ajudar a inserir %imagens %maiores, como as desenvolvidas em CAD. Segue um exemplo na figura \ref{fig4} e figura %\ref{fig5}.
 
 
 %inicio dos comandos para criar uma nova pagina A3
-\clearpage
-\KOMAoptions{paper=a3, pagesize}
-\recalctypearea
+%\clearpage
+%\KOMAoptions{paper=a3, pagesize}
 
-\begin{figure}
-	\centering
-	\makebox[\textwidth][c]{
-		\includegraphics[height=\textheight]{fig3}}
-	\caption{Exemplo de figura inserida em uma página A3}
-	\label{fig4}
-\end{figure}
+%\recalctypearea
+
+%\begin{figure}
+%	\centering
+%	\noindent\makebox[\textwidth][c]{
+%		\includegraphics[width=\textwidth]{figura2}}
+%	\caption{Exemplo de figura inserida em uma página A3}
+%	\label{figura2}
+%\end{figure}
 
 %Retornar ao formato A4
-\clearpage
-\KOMAoptions{paper=a4, pagesize}
-\recalctypearea
+%\clearpage
+%\KOMAoptions{paper=a4, pagesize}
+%\recalctypearea
 %-- reinicio em A4 
 
 
 %inicio dos comandos para criar uma nova pagina A3 horizontal
-\clearpage
-\KOMAoptions{paper=a3, paper=landscape, DIV=20}
-\recalctypearea
+%\clearpage
+%\KOMAoptions{paper=a3, paper=landscape, DIV=20}
+%\recalctypearea
 
 	
-\begin{figure}
+%\begin{figure}
 %	\centering
-	\noindent\makebox[\textwidth][c]{
-		\includegraphics[width=\textwidth]{fig3}
-	}
-	\caption{Exemplo de figura inserida em uma página A3 no formato horizontal}
-	\label{fig5}
-\end{figure}
+%	\noindent\makebox[\textwidth][c]{
+%		\includegraphics[width=\textwidth]{fig3}
+%	}
+%	\caption{Exemplo de figura inserida em uma página A3 no formato horizontal}
+%	\label{fig5}
+%\end{figure}
 
 %Retornar ao formato A4
-\clearpage
-\KOMAoptions{paper=a4, paper=portrait, DIV=15}
-\recalctypearea
+%\clearpage
+%\KOMAoptions{paper=a4, paper=portrait, DIV=15}
+%\recalctypearea
 %-- reinicio em A4 
 
 
