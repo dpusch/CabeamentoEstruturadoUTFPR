@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.4)  12 APR 2020 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.4.4)  12 APR 2020 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,21 +1188,17 @@ File: figura8.jpg Graphic file (type jpg)
 <use figura8.jpg>
 Package pdftex.def Info: figura8.jpg  used on input line 380.
 (pdftex.def)             Requested size: 478.00635pt x 130.00284pt.
-
-Overfull \hbox (61.71268pt too wide) in paragraph at lines 399--404
-[]\OT1/cmr/m/n/12 (-20) Segue uma rela^^Xc~ao de fer-ra-men-tas: http://asana.c
-om/, https://trello.com/, http://www.ganttproject.biz/,
- []
-
-[11 <./figura8.jpg>] [12]
-<mapa_mental.jpeg, id=63, 1327.96124pt x 508.90125pt>
+<cronograma.jpg, id=57, 643.6547pt x 281.55188pt>
+File: cronograma.jpg Graphic file (type jpg)
+<use cronograma.jpg>
+Package pdftex.def Info: cronograma.jpg  used on input line 395.
+(pdftex.def)             Requested size: 478.00635pt x 209.10123pt.
+ [11 <./figura8.jpg> <./cronograma.JPG>] [12] [13]
+<mapa_mental.jpeg, id=68, 1327.96124pt x 508.90125pt>
 File: mapa_mental.jpeg Graphic file (type jpg)
 <use mapa_mental.jpeg>
-Package pdftex.def Info: mapa_mental.jpeg  used on input line 484.
+Package pdftex.def Info: mapa_mental.jpeg  used on input line 483.
 (pdftex.def)             Requested size: 478.0049pt x 183.18102pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 (./projeto_CarlosZanella_DaniloPusch.bbl
 
@@ -1213,7 +1209,13 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-[13]) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[]\OT1/cmr/m/n/12 (+20) J. M. d. S. PI-NHEIRO, ``Tes-tes para cer-ti-fica^^Xc~a
+o de re-des []Opticas.
+ []
+
+) 
 AED: lastpage setting LastPage
 [14 <./mapa_mental.jpeg>] (./projeto_CarlosZanella_DaniloPusch.aux)
 
@@ -1221,11 +1223,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 13110 strings out of 480994
- 228511 string characters out of 5916033
- 752015 words of memory out of 5000000
- 28292 multiletter control sequences out of 15000+600000
- 554653 words of font info for 110 fonts, out of 8000000 for 9000
+ 13127 strings out of 480994
+ 228712 string characters out of 5916033
+ 753032 words of memory out of 5000000
+ 28305 multiletter control sequences out of 15000+600000
+ 554751 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,13n,121p,10128b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/tex
@@ -1243,11 +1245,11 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2019/texmf-dist/fonts/type1
 -super/sfrm1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvb8a
 .pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb><c:/texli
 ve/2019/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on projeto_CarlosZanella_DaniloPusch.pdf (14 pages, 9570003 byte
+Output written on projeto_CarlosZanella_DaniloPusch.pdf (14 pages, 9671560 byte
 s).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 29747 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 29752 words of extra memory for PDF output out of 29859 (max. 10000000)
 

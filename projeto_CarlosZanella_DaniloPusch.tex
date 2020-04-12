@@ -388,19 +388,15 @@ Relação todos os equipamentos passivos que serão utilizados, tipo, fabricante
 A identificação dos cabos será realizada de acordo com a norma NBR 14565:2000. A relação de todos os passivos utilizados, inclusive os cabos, bem como os custos envolvidos consta no item 6.4, memorial descritivo deste documento. 
 
 \section{Implantação}
-Cronograma de implantação:
-Remoção de equipamentos existentes (destino para descarte), instalação dos condutores, instalação dos cabos, 
-identificação dos cabos, montagem dos racks, certificação, etc... Crie atividades e estabeleça o tempo de execução. Se for um projeto real, indique também quais os responsáveis pela execução do projeto e de cada uma das etapas.
+Cronograma de implantação conforme figura \ref{cronograma}:
 
-Defina marcas (e padrões) e fornecedores se for o caso. Atenção a contratados e subcontratados para a realização das atividades. Estabeleça a responsabilidade de execução da atividade e também da validação dela.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{cronograma}
+	\caption{Resumo gráfico}
+	\label{cronograma}	
+\end{figure}:
 
-Utilize algum software para gerear o cronograma. Excel,etc. O fundamental é dividir em etapas, descrever e estimar o tempo de cada uma delas.
-
-Segue uma relação de ferramentas:
-http://asana.com/, 
-https://trello.com/, 
-http://www.ganttproject.biz/, 
-http://www.orangescrum.org/. 
 
 \section{Plano de certificação}
 
@@ -431,7 +427,7 @@ Para a rede de fibra óptica, baseado nas especificações técnica do fabricant
 	\item Teste de comprimento;
 \end{itemize}
 
-A empresa contratada deverá fornecer os relatórios de todos testes realizados e um parecer técnico da viabilidade da rede para atender a demanda solicitada, que neste caso seria uma rede de alta velocidade no padrão 10GBASE-T.
+A empresa contratada deverá fornecer os relatórios de todos testes realizados e um parecer técnico da viabilidade da rede para atender a demanda solicitada, que neste caso seria uma rede de alta velocidade no padrão 10GBASE-T. Fonte: \cite{ID2}, \cite{ID3}
 
 
 \section{Plano de manutenção}
@@ -448,8 +444,8 @@ A manutenção desta rede deverá seguir as melhores práticas e deverá ser reg
 A expansão da infraestrutura de tecnologia da central de distribuição deverá ser aprovada pela superintendência administrativa da empresa. Posteriormente, serão definidas as configurações de hardwares e softwares necessárias pelo departamento de infraestrutura e suporte de TI, bem como o projeto de implantação deve ser definido pelo setor de gestão de projetos, subordinado ao departamento de gestão de TI. Poderá ser executado por equipe interna do setor de manutenção de TI ou por empresa contratada. 
 
 \section{Risco}
-De acordo com Beal \cite{ID2}, uma das grandes vulnerabilidades de segurança encontradas nas organizações são as pessoas que nelas atuam. O abuso de privilégios de acesso a dados ou instalações podem comprometer a segurança. A necessidade de contratação de serviços de terceiros como prestadores de serviço, fornecedores e consultores pode representar sérias ameaças à segurança da informação, caso não sejam auditadas.
-A avaliação dos riscos visa comparar dados coletados anteriormente na análise de riscos com os critérios de risco, considerando a tolerância da organização perante os mesmos. Caso haja necessidade, uma análise mais aprofundada do risco deverá ser empregada a norma (ABNT NBR ISO/IEC 31000:2009). Ainda segundo Beal \cite{ID2}, a avaliação dos riscos deverá ser efetuada por pessoas qualificadas, que possuam características como:
+De acordo com Beal \cite{ID4}, uma das grandes vulnerabilidades de segurança encontradas nas organizações são as pessoas que nelas atuam. O abuso de privilégios de acesso a dados ou instalações podem comprometer a segurança. A necessidade de contratação de serviços de terceiros como prestadores de serviço, fornecedores e consultores pode representar sérias ameaças à segurança da informação, caso não sejam auditadas.
+A avaliação dos riscos visa comparar dados coletados anteriormente na análise de riscos com os critérios de risco, considerando a tolerância da organização perante os mesmos. Caso haja necessidade, uma análise mais aprofundada do risco deverá ser empregada a norma (ABNT NBR ISO/IEC 31000:2009). Ainda segundo Beal \cite{ID4}, a avaliação dos riscos deverá ser efetuada por pessoas qualificadas, que possuam características como:
 \begin{itemize}	
 	\item Conhecimento dos ativos e sua importância para a organização; 
 	\item Formação técnica na área a ser avaliada;
@@ -473,7 +469,10 @@ Tendo isso em vista, o projeto de avaliação de riscos deve ser elaborado por �
 O orçamento total para o projeto é de R\$ 26183,90 (Vinte e seis mil, cento e oitenta e três Reais e noventa centavos), conforme detalhado nos itens 5.2 Encaminhamento e 5.3 Memorial descritivo deste documento. 
 
 \section{Recomendações}
-Observações e recomendações para o cliente.
+É proibida a utilização da infraestrutura de encaminhamento de cabo para a passagem de cabos de energia
+elétrica. No entanto, em casos especiais, e com o uso de dutos com separação entre os cabos de energia elétrica e
+de comunicação, poderá haver este compartilhamento, que será autorizado após analise pela equipe técnica d
+departamento de infraestrutura e suporte de TI. A passagem de outros cabos de sinal (som, alarmes, sinalização, etc) devem ser previamente submetidos ao departamento de infraestrutura e suporte de TI para aprovação, sendo necessário fornecer as especificações técnicas (tensões, correntes, interfaces, meio físico, nível de radiação eletromagnética, etc) do sistema a ser implantado.
 
 \section{Resumo gráfico}
 

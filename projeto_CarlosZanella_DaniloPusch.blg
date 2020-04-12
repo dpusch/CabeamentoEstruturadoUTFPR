@@ -5,39 +5,43 @@ The style file: ieeetr.bst
 Database file #1: referencias.bib
 Warning--entry type for "ID1" isn't style-file defined
 --line 1 of file referencias.bib
-Warning--can't use both author and editor fields in ID2
-Warning--empty publisher in ID2
-Warning--empty year in ID2
-You've used 2 entries,
+Warning--entry type for "ID2" isn't style-file defined
+--line 15 of file referencias.bib
+Warning--entry type for "ID3" isn't style-file defined
+--line 27 of file referencias.bib
+Warning--can't use both author and editor fields in ID4
+Warning--empty publisher in ID4
+Warning--empty year in ID4
+You've used 4 entries,
             1876 wiz_defined-function locations,
-            486 strings with 3831 characters,
-and the built_in function-call counts, 279 in all, are:
-= -- 18
-> -- 8
+            494 strings with 4153 characters,
+and the built_in function-call counts, 507 in all, are:
+= -- 34
+> -- 16
 < -- 0
-+ -- 4
-- -- 2
-* -- 17
-:= -- 44
++ -- 8
+- -- 4
+* -- 23
+:= -- 74
 add.period$ -- 1
-call.type$ -- 2
-change.case$ -- 1
+call.type$ -- 4
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 13
-empty$ -- 38
-format.name$ -- 2
-if$ -- 63
+cite$ -- 7
+duplicate$ -- 21
+empty$ -- 74
+format.name$ -- 4
+if$ -- 121
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 4
 missing$ -- 2
-newline$ -- 9
-num.names$ -- 2
-pop$ -- 12
+newline$ -- 15
+num.names$ -- 4
+pop$ -- 22
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 9
+skip$ -- 25
 stack$ -- 0
 substring$ -- 0
 swap$ -- 2
@@ -46,7 +50,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 2
-width$ -- 3
-write$ -- 14
-(There were 4 warnings)
+while$ -- 4
+width$ -- 5
+write$ -- 26
+(There were 6 warnings)

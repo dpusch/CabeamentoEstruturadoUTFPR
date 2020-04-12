@@ -13,11 +13,11 @@
 \contentsline {subsection}{\numberline {5.3}Memorial descritivo}{9}%
 \contentsline {subsection}{\numberline {5.4}Identificação dos cabos}{11}%
 \contentsline {section}{\numberline {6}Implantação}{11}%
-\contentsline {section}{\numberline {7}Plano de certificação}{11}%
+\contentsline {section}{\numberline {7}Plano de certificação}{12}%
 \contentsline {section}{\numberline {8}Plano de manutenção}{12}%
-\contentsline {subsection}{\numberline {8.1}Plano de expansão}{12}%
+\contentsline {subsection}{\numberline {8.1}Plano de expansão}{13}%
 \contentsline {section}{\numberline {9}Risco}{13}%
 \contentsline {section}{\numberline {10}Orçamento}{13}%
-\contentsline {section}{\numberline {11}Recomendações}{13}%
-\contentsline {section}{\numberline {12}Resumo gráfico}{13}%
+\contentsline {section}{\numberline {11}Recomendações}{14}%
+\contentsline {section}{\numberline {12}Resumo gráfico}{14}%
 \contentsline {section}{\numberline {13}Referências bibliográficas}{14}%
