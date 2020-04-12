@@ -17,12 +17,12 @@
 \contentsline {section}{\numberline {8}Plano de manutenção}{11}%
 \contentsline {subsection}{\numberline {8.1}Plano de expansão}{11}%
 \contentsline {section}{\numberline {9}Risco}{11}%
-\contentsline {section}{\numberline {10}Orçamento}{11}%
+\contentsline {section}{\numberline {10}Orçamento}{12}%
 \contentsline {section}{\numberline {11}Recomendações}{12}%
 \contentsline {section}{\numberline {12}Referências bibliográficas}{12}%
 \contentsline {section}{\numberline {13}Elementos textuais - Alguns exemplos}{12}%
 \contentsline {subsection}{\numberline {13.1}Colocar elementos em itens}{12}%
-\contentsline {subsubsection}{\numberline {13.1.1}Uma subseção de terceiro nivel}{12}%
+\contentsline {subsubsection}{\numberline {13.1.1}Uma subseção de terceiro nivel}{13}%
 \contentsline {subsection}{\numberline {13.2}Tabelas}{13}%
 \contentsline {subsection}{\numberline {13.3}Figuras}{13}%
 \contentsline {subsubsection}{\numberline {13.3.1}Resumo gráfico}{13}%

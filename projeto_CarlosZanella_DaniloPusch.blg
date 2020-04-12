@@ -4,46 +4,49 @@ The top-level auxiliary file: projeto_CarlosZanella_DaniloPusch.aux
 The style file: ieeetr.bst
 Database file #1: referencias.bib
 Warning--entry type for "ID1" isn't style-file defined
---line 75 of file referencias.bib
-You've used 5 entries,
+--line 1 of file referencias.bib
+Warning--can't use both author and editor fields in ID2
+Warning--empty publisher in ID2
+Warning--empty year in ID2
+You've used 2 entries,
             1876 wiz_defined-function locations,
-            506 strings with 4298 characters,
-and the built_in function-call counts, 1100 in all, are:
-= -- 96
-> -- 57
+            486 strings with 3831 characters,
+and the built_in function-call counts, 279 in all, are:
+= -- 18
+> -- 8
 < -- 0
-+ -- 21
-- -- 16
-* -- 76
-:= -- 169
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 4
++ -- 4
+- -- 2
+* -- 17
+:= -- 44
+add.period$ -- 1
+call.type$ -- 2
+change.case$ -- 1
 chr.to.int$ -- 0
 cite$ -- 5
-duplicate$ -- 46
-empty$ -- 109
-format.name$ -- 16
-if$ -- 264
+duplicate$ -- 13
+empty$ -- 38
+format.name$ -- 2
+if$ -- 63
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 4
-newline$ -- 19
-num.names$ -- 5
-pop$ -- 20
+int.to.str$ -- 2
+missing$ -- 2
+newline$ -- 9
+num.names$ -- 2
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 37
+skip$ -- 9
 stack$ -- 0
-substring$ -- 44
-swap$ -- 15
+substring$ -- 0
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 10
-width$ -- 6
-write$ -- 45
-(There was 1 warning)
+warning$ -- 3
+while$ -- 2
+width$ -- 3
+write$ -- 14
+(There were 4 warnings)
