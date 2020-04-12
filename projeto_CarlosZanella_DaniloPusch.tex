@@ -461,151 +461,21 @@ Crie uma relação de orçamentos baseado na seções anteriores.
 \section{Recomendações}
 Observações e recomendações para o cliente.
 
+\section{Resumo gráfico}
+
+Mapa mental do projeto conforme figura \ref{mapa_mental}:
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth,height=10cm,keepaspectratio]{mapa_mental}
+	\caption{Resumo gráfico}
+	\label{mapa_mental}	
+\end{figure}
+
 \section{Referências bibliográficas}
 
 \renewcommand\refname{} %%Referências bibliográficas}  
 \bibliographystyle{ieeetr}
 \bibliography{referencias}  
-
-
-
-
-
-
-
-
-
-
-
-
-%% ***********************************************************************
-%% === remover daqui =====================================================
-%% ***********************************************************************
-=================================================
-\section{Elementos textuais - Alguns exemplos}
-
-Esta seção apresenta exemplos de elementos textuais. \textbf{Remova-a da versão final do texto}.
-
-
-\subsection{Colocar elementos em itens}
-
-Texto antes da lista
-
-\begin{itemize}
-	\item First item in a list 
-	\item Second item in a list 
-	\item Third item in a list
-\end{itemize}
-
-\subsubsection{Uma subseção de terceiro nivel}
-
-Exemplo de uma subseção
-
-\subsection{Tabelas}
-
-Utilize o site http://www.tablesgenerator.com/ para elaborar as tabelas de seu trabalho.
-Para adicionar uma tabela utilize: a tag input, passando o arquivo da tabela como parametro
-
-\input{tab2}
-
-Dentro do arquivo você deve definir o label e pode utilizá-lo para referenciar. Exemplo:
-Na tab \ref{tab2} temos a relação de ....
-
-
-Você também pode modificar a tabela manualmente, incluindo, por exemplo h! dentro de sua definição. Veja no exemplo tab2.tex
-
-\subsection{Figuras}
-
-As figuras podem ser no formato PDF, JPG, PNG. Você pode referenciá-las da mesma maneira que tabelas. Exemplo: A figura \ref{fig1} apresenta.....
-
-Não se preocupe o local em que a figura será renderizada em seu texto. Preocupe-se em criar referência para ela, ou seja, toda figura e tabela deve conter pelo menos uma referência no texto.
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{fig1}
-\caption{Esquema lógico}
-\label{fig1}
-\end{figure}
-
-
-\begin{figure}
-	\centering
-	\includegraphics[]{fig2}
-	\caption{Exemplo de figura sem escala}
-	\label{fig2}
-\end{figure}
-
-%Você pode rotacionar figuras também. Para isso utilize o parâmetro angle=-90. Repare que a escala %da figura foi modificada pelo parametro height. Você também pode utilizar scale
-
-%\begin{figure}
-	%\centering
-	%\includegraphics[height=\textwidth,angle=-90]{fig3}
-	%\caption{Exemplo de figura rotacionada}
-	%\label{fig3}
-%\end{figure}
-
-%Você também pode inserir páginas de outro tamanho em seu texto. Isto irá ajudar a inserir %imagens %maiores, como as desenvolvidas em CAD. Segue um exemplo na figura \ref{fig4} e figura %\ref{fig5}.
-
-
-%inicio dos comandos para criar uma nova pagina A3
-%\clearpage
-%\KOMAoptions{paper=a3, pagesize}
-
-%\recalctypearea
-
-%\begin{figure}
-%	\centering
-%	\noindent\makebox[\textwidth][c]{
-%		\includegraphics[width=\textwidth]{figura2}}
-%	\caption{Exemplo de figura inserida em uma página A3}
-%	\label{figura2}
-%\end{figure}
-
-%Retornar ao formato A4
-%\clearpage
-%\KOMAoptions{paper=a4, pagesize}
-%\recalctypearea
-%-- reinicio em A4 
-
-
-%inicio dos comandos para criar uma nova pagina A3 horizontal
-%\clearpage
-%\KOMAoptions{paper=a3, paper=landscape, DIV=20}
-%\recalctypearea
-
-	
-%\begin{figure}
-%	\centering
-%	\noindent\makebox[\textwidth][c]{
-%		\includegraphics[width=\textwidth]{fig3}
-%	}
-%	\caption{Exemplo de figura inserida em uma página A3 no formato horizontal}
-%	\label{fig5}
-%\end{figure}
-
-%Retornar ao formato A4
-%\clearpage
-%\KOMAoptions{paper=a4, paper=portrait, DIV=15}
-%\recalctypearea
-%-- reinicio em A4 
-
-
-\subsubsection{Resumo gráfico}
-
-Você pode optar por fazer um resumo no formato de mapa mental/conceitual. 
-Aqui foi utilizado o site https://app.mindmup.com para gerar o mapa.
-
-Para utilizar o resumo gráfico, remova o texto da seção resumo (linha 137) e inclua o código para inserir a figura, conforme figura \ref{fig6}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth,height=5cm,keepaspectratio]{fig4}
-	\caption{Exemplo de resumo gráfico}
-	\label{fig6}	
-\end{figure}
-
-%% ***********************************************************************
-%% === ate aqui    =====  ================================================
-%% ***********************************************************************
 
 \end{document}
