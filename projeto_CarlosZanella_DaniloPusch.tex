@@ -22,6 +22,9 @@
 \usepackage{booktabs}		% Nicer tables
 \usepackage{float}
 
+% adicionado por Djeizon
+\usepackage{multirow}
+
 \usepackage{fix-cm}													% Custom fontsizes
 \usepackage[utf8]{inputenc}
 \usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
@@ -91,7 +94,7 @@
 										}
 
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule 
-				\fontsize{50}{50} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont 
+				\fontsize{40}{40} \usefont{OT1}{phv}{b}{n} \color{DarkRed} \selectfont 
 				}
 
 %% ====================================
@@ -110,11 +113,12 @@
 
 \preauthor{\begin{flushleft}
 					\large \lineskip 0.5em \usefont{OT1}{phv}{b}{sl} \color{DarkRed}}
-\author{Carlos Alberto Zanella e Danilo Mendes Pusch}  	% Author name goes here
+\author{Carlos Alberto Zanella \\ \vspace{0.3cm}Danilo Mendes Pusch}  	% Author name goes here
 
 
 \postauthor{\footnotesize \usefont{OT1}{phv}{m}{sl} \color{Black} 
-					\\Universidade Tecnológica Federal do Paraná - Câmpus Cornélio Procópio 								% Institution of author
+					\\
+					 \vspace{0.3cm}Universidade Tecnológica Federal do Paraná - Câmpus Cornélio Procópio 								% Institution of author
 					\par\end{flushleft}\HorRule}
 
 \date{}																				% No date
@@ -342,65 +346,94 @@ De acordo com Augusto \cite{ID1}, a topologia pode ser entendida como a maneira 
 
 
 %%%%%%%%%%%%%%%%%%%%% ANTIGO %%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{figure}
-%\centering
-%\includegraphics[width=\textwidth]{figura3}
-%\caption{Planta lógica}
-%\label{figura3}
-%\end{figure}
+\iffalse
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{figura3}
+\caption{Planta lógica}
+\label{figura3}
+\end{figure}
+\fi
 
-
-Podemos ver também os modelos de rack que serão utilizados abaixo na tabela \ref{tab1}.
+Podemos ver também os modelos de rack que serão utilizados abaixo na \textbf{Tabela 1}.
 
 \input{tab1}
 
 \subsection{Encaminhamento}
+\vspace{1cm}
+%Relação do encaminhamento e seus respectivos custos conforme figura \ref{figura4}.  
+Relação do encaminhamento e seus respectivos custos conforme a \textbf{Tabela 2}.  
+\input{tabx1}
+\vspace{1cm}
 
-Relação do encaminhamento e seus respectivos custos conforme figura \ref{figura4}.  
+\iffalse
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{figura4}
 	\caption{Encaminhamento e custos}
 	\label{figura4}
 \end{figure}
-
+\fi
  
 \subsection{Memorial descritivo}
-Memorial descritivo conforme figura \ref{figura7}.  
+Memorial descritivo conforme figura \textbf{Tabela 3}. 
+
+\input{tabmemorial}
+
+% NÃO É PADRÃO TERMOS IMAGENS DENTRO DAS TABELAS.
+% RECOMENDO UMA SEÇÃO DE IMAGENS NO FIM DO DOCUMENTO
+% DEMONSTRANDO CADA PEÇA EM CÓDIGO DE REFERẼNCIA.
+% A TABELA ANTERIOR ESTÁ AINDA COMENTADA E DISPONÍVEL
+% CASO SEJA O ENTENDIMENTO DO GRUPO UTILIZÁ-LA.
+
+
+\iffalse
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth,height=24cm]{figura7}
 	\caption{Memorial descritivo}
 	\label{figura7}
 \end{figure}
+\fi
 
-Relação todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade e seus respectivos custos conforme figura \ref{figura8}.  
+Relação todos os equipamentos passivos que serão utilizados, tipo, fabricante, quantidade e seus respectivos custos conforme a \textbf{Tabela 4}.
+
+
+\input{tabx2}
+
+
+\iffalse
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{figura8}
 	\caption{Passivos, quantidades e custos}
 	\label{figura8}
 \end{figure}
-
+\fi
 
 
 \subsection{Identificação dos cabos}
 A identificação dos cabos será realizada de acordo com a norma NBR 14565:2000. A relação de todos os passivos utilizados, inclusive os cabos, bem como os custos envolvidos consta no item 6.4, memorial descritivo deste documento. 
 
 \section{Implantação}
-Cronograma de implantação conforme figura \ref{cronograma}:
+Cronograma de implantação conforme a \textbf{Tabela 5}:
 
+\input{tabcronograma}
+
+
+\iffalse
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{cronograma}
 	\caption{Resumo gráfico}
 	\label{cronograma}	
 \end{figure}:
-
+\fi
 
 \section{Plano de certificação}
 
 A certificação da rede será realizada por empresa terceirizada a ser contratada após sua conclusão física, antes da entrega para uso, em todos os pontos de redes. Será exigido apenas os testes passivos da rede, conhecidos também como testes de campo. Para a rede de pares metálicos, baseado na documentação técnica dos fabricantes,  será exigido os seguintes testes:
+\\
 \begin{itemize}	
 	\item Wiremap;
 	\item Lenght;
@@ -419,13 +452,20 @@ A certificação da rede será realizada por empresa terceirizada a ser contrata
 	\item DCLoop Resistance;	
 \end{itemize}
 
+\
+
 Para a rede de fibra óptica, baseado nas especificações técnica do fabricante, será exigido os seguintes testes:
+
+\
+
 \begin{itemize}	
 	\item Atenuação (Attenuation or Insertion Loss);
 	\item Atenuação por retroespelhamento;
 	\item Atenuação de inserção;
 	\item Teste de comprimento;
 \end{itemize}
+
+\
 
 A empresa contratada deverá fornecer os relatórios de todos testes realizados e um parecer técnico da viabilidade da rede para atender a demanda solicitada, que neste caso seria uma rede de alta velocidade no padrão 10GBASE-T. Fonte: \cite{ID2}, \cite{ID3}
 
@@ -446,6 +486,9 @@ A expansão da infraestrutura de tecnologia da central de distribuição deverá
 \section{Risco}
 De acordo com Beal \cite{ID4}, uma das grandes vulnerabilidades de segurança encontradas nas organizações são as pessoas que nelas atuam. O abuso de privilégios de acesso a dados ou instalações podem comprometer a segurança. A necessidade de contratação de serviços de terceiros como prestadores de serviço, fornecedores e consultores pode representar sérias ameaças à segurança da informação, caso não sejam auditadas.
 A avaliação dos riscos visa comparar dados coletados anteriormente na análise de riscos com os critérios de risco, considerando a tolerância da organização perante os mesmos. Caso haja necessidade, uma análise mais aprofundada do risco deverá ser empregada a norma (ABNT NBR ISO/IEC 31000:2009). Ainda segundo Beal \cite{ID4}, a avaliação dos riscos deverá ser efetuada por pessoas qualificadas, que possuam características como:
+
+\
+
 \begin{itemize}	
 	\item Conhecimento dos ativos e sua importância para a organização; 
 	\item Formação técnica na área a ser avaliada;
@@ -453,7 +496,12 @@ A avaliação dos riscos visa comparar dados coletados anteriormente na análise
 	\item Conhecimento da metodologia e das ferramentas a serem utilizadas na avaliação de riscos. 
 \end{itemize}
 
+\
+
 Tendo isso em vista, o projeto de avaliação de riscos deve ser elaborado por área competente e levar em consideração esses itens que não compreendem exatamente competência da área técnica:
+
+\
+
 \begin{itemize}	
 	\item Atraso na entrega do prédio; 
 	\item Atraso na entrega da instalação elétrica;
@@ -476,15 +524,54 @@ departamento de infraestrutura e suporte de TI. A passagem de outros cabos de si
 
 \section{Resumo gráfico}
 
-Mapa mental do projeto conforme figura \ref{mapa_mental}:
+Mapa mental do projeto conforme \textbf{Figura 4.}
+Para uma melhor visualização, também optou-se por ser apresentado em formato A3 paisagem.
 
-\begin{figure}[h]
+
+%INTERVENÇÃO - DBARROS 
+
+%inicio dos comandos para criar uma nova pagina A3 horizontal
+\clearpage
+\thispagestyle{plain}
+\KOMAoptions{paper=a3, paper=landscape, DIV=20}
+
+\recalctypearea
+
+
+\begin{figure}
+	%	\centering
+	\noindent\makebox[\textwidth][c]{
+		\includegraphics[width=\textwidth]{mapa_mental}
+	}
+	\caption{Resumo gráfico}
+	\label{mapa_mental}
+\end{figure}
+
+%Retornar ao formato A4
+\clearpage
+\KOMAoptions{paper=a4, paper=portrait, DIV=15}
+\recalctypearea
+%-- reinicio em A4 
+
+
+
+
+
+
+
+
+\iffalse
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth,height=10cm,keepaspectratio]{mapa_mental}
 	\caption{Resumo gráfico}
 	\label{mapa_mental}	
 \end{figure}
+\fi
 
+
+
+\pagebreak
 \section{Referências bibliográficas}
 
 \renewcommand\refname{} %%Referências bibliográficas}  

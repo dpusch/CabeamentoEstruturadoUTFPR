@@ -1,23 +1,23 @@
 \babel@toc {brazil}{}
-\contentsline {section}{\numberline {1}Introdução}{4}%
-\contentsline {subsection}{\numberline {1.1}Benefícios}{4}%
-\contentsline {subsection}{\numberline {1.2}Organizações Envolvidas}{4}%
-\contentsline {section}{\numberline {2}Estado atual}{4}%
-\contentsline {section}{\numberline {3}Requisitos}{4}%
-\contentsline {section}{\numberline {4}Usuários e Aplicativos}{4}%
-\contentsline {subsection}{\numberline {4.1}Usuários}{5}%
-\contentsline {subsection}{\numberline {4.2}Aplicativos}{5}%
-\contentsline {section}{\numberline {5}Estrutura predial existente}{5}%
-\contentsline {subsection}{\numberline {5.1}Topologia}{5}%
-\contentsline {subsection}{\numberline {5.2}Encaminhamento}{9}%
-\contentsline {subsection}{\numberline {5.3}Memorial descritivo}{9}%
-\contentsline {subsection}{\numberline {5.4}Identificação dos cabos}{11}%
-\contentsline {section}{\numberline {6}Implantação}{11}%
-\contentsline {section}{\numberline {7}Plano de certificação}{12}%
-\contentsline {section}{\numberline {8}Plano de manutenção}{12}%
-\contentsline {subsection}{\numberline {8.1}Plano de expansão}{13}%
-\contentsline {section}{\numberline {9}Risco}{13}%
-\contentsline {section}{\numberline {10}Orçamento}{13}%
-\contentsline {section}{\numberline {11}Recomendações}{14}%
-\contentsline {section}{\numberline {12}Resumo gráfico}{14}%
-\contentsline {section}{\numberline {13}Referências bibliográficas}{14}%
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{4}% 
+\contentsline {subsection}{\numberline {1.1}Benef\IeC {\'\i }cios}{4}% 
+\contentsline {subsection}{\numberline {1.2}Organiza\IeC {\c c}\IeC {\~o}es Envolvidas}{4}% 
+\contentsline {section}{\numberline {2}Estado atual}{4}% 
+\contentsline {section}{\numberline {3}Requisitos}{4}% 
+\contentsline {section}{\numberline {4}Usu\IeC {\'a}rios e Aplicativos}{4}% 
+\contentsline {subsection}{\numberline {4.1}Usu\IeC {\'a}rios}{5}% 
+\contentsline {subsection}{\numberline {4.2}Aplicativos}{5}% 
+\contentsline {section}{\numberline {5}Estrutura predial existente}{5}% 
+\contentsline {subsection}{\numberline {5.1}Topologia}{5}% 
+\contentsline {subsection}{\numberline {5.2}Encaminhamento}{9}% 
+\contentsline {subsection}{\numberline {5.3}Memorial descritivo}{10}% 
+\contentsline {subsection}{\numberline {5.4}Identifica\IeC {\c c}\IeC {\~a}o dos cabos}{10}% 
+\contentsline {section}{\numberline {6}Implanta\IeC {\c c}\IeC {\~a}o}{11}% 
+\contentsline {section}{\numberline {7}Plano de certifica\IeC {\c c}\IeC {\~a}o}{11}% 
+\contentsline {section}{\numberline {8}Plano de manuten\IeC {\c c}\IeC {\~a}o}{12}% 
+\contentsline {subsection}{\numberline {8.1}Plano de expans\IeC {\~a}o}{12}% 
+\contentsline {section}{\numberline {9}Risco}{12}% 
+\contentsline {section}{\numberline {10}Or\IeC {\c c}amento}{13}% 
+\contentsline {section}{\numberline {11}Recomenda\IeC {\c c}\IeC {\~o}es}{13}% 
+\contentsline {section}{\numberline {12}Resumo gr\IeC {\'a}fico}{13}% 
+\contentsline {section}{\numberline {13}Refer\IeC {\^e}ncias bibliogr\IeC {\'a}ficas}{15}% 
